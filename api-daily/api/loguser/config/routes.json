@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/logusers",
+      "handler": "Loguser.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/logusers/count",
+      "handler": "Loguser.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/logusers/:id",
+      "handler": "Loguser.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/logusers",
+      "handler": "Loguser.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/logusers/:id",
+      "handler": "Loguser.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/logusers/:id",
+      "handler": "Loguser.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

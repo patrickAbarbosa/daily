@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "reports",
+  "info": {
+    "name": "report",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "previous_day": {
+      "type": "text"
+    },
+    "today": {
+      "type": "text"
+    },
+    "blocker": {
+      "type": "text"
+    }
+  }
+}

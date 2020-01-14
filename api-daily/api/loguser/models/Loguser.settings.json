@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "logusers",
+  "info": {
+    "name": "loguser",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "tesk": {
+      "type": "string"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    }
+  }
+}
